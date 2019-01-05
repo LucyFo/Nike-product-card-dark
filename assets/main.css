@@ -22,7 +22,6 @@ body * {
     padding: 6px 6px 0 0;
 }
 
-
 .card {
     position: relative;
     margin: 110px 65px;
@@ -93,7 +92,6 @@ body * {
     margin-bottom: 29px;
 }
 
-
 .order-form select {
     width: 69px;
     height: 32px;
@@ -114,6 +112,4 @@ button {
     border: 1px solid #e1e1e1;
     box-shadow: none;
     background-color: #202835;
-
-
 }
