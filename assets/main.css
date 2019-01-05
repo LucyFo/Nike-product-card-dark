@@ -24,6 +24,7 @@ body * {
 
 
 .card {
+    position: relative;
     margin: 110px 65px;
     width: 686px;
     height: 391px;
@@ -45,6 +46,12 @@ body * {
     width: 329px;
     height: 157px;
     float: left;
+}
+
+.page-switcher {
+    position: absolute;
+    top: 350px;
+    left: 180px;
 }
 
 .page-switcher img {
