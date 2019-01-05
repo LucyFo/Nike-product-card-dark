@@ -43,8 +43,19 @@ body * {
 .sneakers-photo img {
     margin: 60px 77px 0 35px;
     width: 329px;
-    height: 129px;
+    height: 157px;
     float: left;
+}
+
+.page-switcher img {
+    margin: 3px;
+    width: 9px;
+    height: 10px;
+}
+
+.page-switcher img:hover {
+    border: 1px solid #e1e1e1;
+    border-radius: 50%;
 }
 
 .sheakers-title h1 {
@@ -72,6 +83,7 @@ body * {
 
 .order-form div {
     display: inline-block;
+    margin-bottom: 29px;
 }
 
 
@@ -85,6 +97,16 @@ body * {
 
 input[type="submit"i] {
     background-color: #202835;
+    border: none;
     color: #e1e1e1;
     font-family: 'Museo Sans Rounded';
+}
+
+button {
+    padding: 11px 51px;
+    border: 1px solid #e1e1e1;
+    box-shadow: none;
+    background-color: #202835;
+
+
 }
